@@ -1,0 +1,94 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+.main{
+  background-image: url(messi+04.jpeg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height:550px;
+  background-color: rgba(0,0,0,0.5);
+}
+.main a{
+  padding: 20px;
+  text-decoration: none;
+  color: #fff;
+   font-size: 24px;
+   background-attachment: fixed;
+}
+.main h2{
+  font-size: 60px;
+  font-style: italic;
+  text-align: left;
+  color: #fff;
+  padding: 120px;
+}
+.main h5{
+  font-size: 20px;
+  font-style:oblique;
+  color: #fff;
+  padding-left:120px;
+  border-left: 2px white solid;
+  padding-left:20px;
+}
+.Contact h4{
+   font-weight: lighter;
+   font-size: 30px;
+   text-align: center;
+
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+/*-------------*/
+.container1 {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0
+}
+
+.container1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container1 img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container1 span {
+  font-size: 20px;
+  margin-right: 15px;
+}
